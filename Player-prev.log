@@ -1,18 +1,18 @@
 Initialize engine version: 2019.3.2f1 (536936b73d1b)
-[Subsystems] Discovering subsystems at path E:/BaiduNetdiskDownload/guigu/guigubahuang_Data/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/guigubahuang/guigubahuang_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x416)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.5671
+    VRAM:     2048 MB
+    Driver:   10.18.15.4256
 D3D11 device created for Microsoft Media Foundation video decoding.
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.256900 ms
-C:/Users/admin/AppData/LocalLow/guigugame/guigubahuang/Steam/CacheData
+UnloadTime: 10.732632 ms
+C:/Users/sen/AppData/LocalLow/guigugame/guigubahuang/Steam/CacheData
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 SceneGame:Init()
@@ -122,28 +122,12 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 (Filename: currently not available on il2cpp Line: -1)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.495800 ms
+UnloadTime: 0.432258 ms
 
 Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 3778.
-Total: 29.344400 ms (FindLiveObjects: 0.361300 ms CreateObjectMapping: 0.117200 ms MarkObjects: 28.772000 ms  DeleteObjects: 0.093200 ms)
+Total: 59.732537 ms (FindLiveObjects: 1.040972 ms CreateObjectMapping: 0.629636 ms MarkObjects: 57.967187 ms  DeleteObjects: 0.093557 ms)
 
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-屏幕大小：1920 1080
+屏幕大小：1366 768
 平台：Steam
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
@@ -170,7 +154,35 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-读取存档1_33OdFC，游戏时间：5小时34分12秒  耗时：1897毫秒
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+读取存档1_33OdFC，游戏时间：9小时17分48秒  耗时：2700毫秒
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 CodeTimeLog:LogMs(String)
@@ -184,46 +196,490 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.193700 ms
+UnloadTime: 0.558975 ms
 
 Unloading 1241 unused Assets to reduce memory usage. Loaded Objects now: 4184.
-Total: 473.645900 ms (FindLiveObjects: 0.454000 ms CreateObjectMapping: 0.107000 ms MarkObjects: 406.916400 ms  DeleteObjects: 66.168100 ms)
+Total: 414.268621 ms (FindLiveObjects: 0.734641 ms CreateObjectMapping: 0.849515 ms MarkObjects: 411.730339 ms  DeleteObjects: 0.950968 ms)
 
-剧情ID:23401
+建筑ID：fpRyT8
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:24411
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+MapBuildSchool:PlayerOpenMatchFight(FightItemData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600008
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+MapBuildSchool:PlayerOpenMatchFight(FightItemData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:24421
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+Steamworks.DispatchDelegate:Invoke(T)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600009
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+Steamworks.DispatchDelegate:Invoke(T)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+进入副本：19，等级：1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
+WorldBattleMgr:IntoBattle(WorldUnitBase, Int32, Action, WorldBattleData)
+MatchFight:FightNext()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 27.559510 ms
+
+Unloading 10743 unused Assets to reduce memory usage. Loaded Objects now: 5595.
+Total: 407.458682 ms (FindLiveObjects: 3.227527 ms CreateObjectMapping: 1.393489 ms MarkObjects: 393.657610 ms  DeleteObjects: 9.178872 ms)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+19 战斗结束：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UIBattleEnd:InitData(Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.045473 ms
+
+Unloading 5475 unused Assets to reduce memory usage. Loaded Objects now: 5866.
+Total: 385.558396 ms (FindLiveObjects: 1.888514 ms CreateObjectMapping: 2.276164 ms MarkObjects: 372.935672 ms  DeleteObjects: 8.456468 ms)
+
+剧情ID:24451
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__3(Boolean)
+System.Action`1:Invoke(T)
+<>c__DisplayClass16_0:<FightNext>b__0(Boolean)
+System.Action`1:Invoke(T)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+EventsData:Call(ETypeData)
+EventsMgr:EmitEvents(String, ETypeData)
+EventsMgr:Emit(String, ETypeData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600012
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__3(Boolean)
+System.Action`1:Invoke(T)
+<>c__DisplayClass16_0:<FightNext>b__0(Boolean)
+System.Action`1:Invoke(T)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+EventsData:Call(ETypeData)
+EventsMgr:EmitEvents(String, ETypeData)
+EventsMgr:Emit(String, ETypeData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:24421
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+Steamworks.DispatchDelegate:Invoke(T)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600026
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+Steamworks.DispatchDelegate:Invoke(T)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+DZSbU7 (145, 52)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UINPCInfo:InitData(WorldUnitBase, Boolean)
+<>c__DisplayClass9_1:<UpdateUnit>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+进入副本：19，等级：1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
+WorldBattleMgr:IntoBattle(WorldUnitBase, Int32, Action, WorldBattleData)
+MatchFight:FightNext()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 23.677478 ms
+
+Unloading 9108 unused Assets to reduce memory usage. Loaded Objects now: 5871.
+Total: 338.096462 ms (FindLiveObjects: 2.713554 ms CreateObjectMapping: 1.146767 ms MarkObjects: 328.189660 ms  DeleteObjects: 6.045297 ms)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+19 战斗结束：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UIBattleEnd:InitData(Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 31.214558 ms
+
+Unloading 8900 unused Assets to reduce memory usage. Loaded Objects now: 5920.
+Total: 446.661132 ms (FindLiveObjects: 3.454906 ms CreateObjectMapping: 1.585736 ms MarkObjects: 424.666500 ms  DeleteObjects: 16.953200 ms)
+
+剧情ID:24451
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__3(Boolean)
+System.Action`1:Invoke(T)
+<>c__DisplayClass16_0:<FightNext>b__0(Boolean)
+System.Action`1:Invoke(T)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+EventsData:Call(ETypeData)
+EventsMgr:EmitEvents(String, ETypeData)
+EventsMgr:Emit(String, ETypeData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600028
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__3(Boolean)
+System.Action`1:Invoke(T)
+<>c__DisplayClass16_0:<FightNext>b__0(Boolean)
+System.Action`1:Invoke(T)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+EventsData:Call(ETypeData)
+EventsMgr:EmitEvents(String, ETypeData)
+EventsMgr:Emit(String, ETypeData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+DZSbU7 (145, 52)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UINPCInfo:InitData(WorldUnitBase, Boolean)
+<>c__DisplayClass9_1:<UpdateUnit>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:24441
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__6()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIBase:DestroyUI()
+<>c__DisplayClass25_1:<CloseUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIMgr:CloseUI(UITypeBase, Boolean)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：600011
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+<>c__DisplayClass17_0:<PlayerOpenMatchFight>b__6()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIBase:DestroyUI()
+<>c__DisplayClass25_1:<CloseUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIMgr:CloseUI(UITypeBase, Boolean)
+UIMatchFight:OnFightBtnClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+f8oVZ5 (145, 52)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UINPCInfo:InitData(WorldUnitBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:22604
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(Int32, DramaData)
 UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
+UnitActionRoleChat:PlayerToNPCAction()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-进入副本：4707，等级：14
+剧情ID:22622
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
 Steamworks.DispatchDelegate:Invoke(T)
@@ -243,71 +699,18 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 21.764600 ms
-
-Unloading 6673 unused Assets to reduce memory usage. Loaded Objects now: 5160.
-Total: 415.270400 ms (FindLiveObjects: 0.941300 ms CreateObjectMapping: 0.809800 ms MarkObjects: 407.538500 ms  DeleteObjects: 5.980300 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4707 战斗结束：True
+文本ID：105031
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 14.304600 ms
-
-Unloading 8288 unused Assets to reduce memory usage. Loaded Objects now: 5841.
-Total: 369.114600 ms (FindLiveObjects: 1.297600 ms CreateObjectMapping: 0.518000 ms MarkObjects: 357.677400 ms  DeleteObjects: 9.621100 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(Int32, DramaData)
 UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4707，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
 Steamworks.DispatchDelegate:Invoke(T)
@@ -327,73 +730,16 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 14.558900 ms
-
-Unloading 5338 unused Assets to reduce memory usage. Loaded Objects now: 5846.
-Total: 426.795900 ms (FindLiveObjects: 1.050700 ms CreateObjectMapping: 0.309800 ms MarkObjects: 421.840600 ms  DeleteObjects: 3.594100 ms)
-
-4707 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.215600 ms
-
-Unloading 6046 unused Assets to reduce memory usage. Loaded Objects now: 5877.
-Total: 476.107100 ms (FindLiveObjects: 1.216600 ms CreateObjectMapping: 0.493700 ms MarkObjects: 467.009900 ms  DeleteObjects: 7.386600 ms)
-
-剧情ID:23401
+剧情ID:22623
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(Int32, DramaData)
 UICustomDramaBase:OpenUI()
 UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
+<>c__DisplayClass12_6:<PlayerToNPCAction>b__21()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4707，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UnityEngine.Events.InvokableCall:Invoke()
 UnityEngine.Events.UnityEvent:Invoke()
@@ -407,77 +753,22 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.457700 ms
-
-Unloading 5366 unused Assets to reduce memory usage. Loaded Objects now: 5882.
-Total: 424.365200 ms (FindLiveObjects: 1.062600 ms CreateObjectMapping: 0.343300 ms MarkObjects: 419.267800 ms  DeleteObjects: 3.691100 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4707 战斗结束：True
+文本ID：105035
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 17.377300 ms
-
-Unloading 5933 unused Assets to reduce memory usage. Loaded Objects now: 5894.
-Total: 480.643100 ms (FindLiveObjects: 0.959100 ms CreateObjectMapping: 0.308000 ms MarkObjects: 472.989900 ms  DeleteObjects: 6.385600 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(Int32, DramaData)
 UICustomDramaBase:OpenUI()
 UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
+<>c__DisplayClass12_6:<PlayerToNPCAction>b__21()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4707，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UnityEngine.Events.InvokableCall:Invoke()
 UnityEngine.Events.UnityEvent:Invoke()
@@ -491,73 +782,17 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.847700 ms
-
-Unloading 6025 unused Assets to reduce memory usage. Loaded Objects now: 5902.
-Total: 467.642700 ms (FindLiveObjects: 1.269500 ms CreateObjectMapping: 0.505000 ms MarkObjects: 462.148300 ms  DeleteObjects: 3.719000 ms)
-
-4707 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 19.326700 ms
-
-Unloading 6036 unused Assets to reduce memory usage. Loaded Objects now: 5908.
-Total: 508.289800 ms (FindLiveObjects: 1.142400 ms CreateObjectMapping: 0.369300 ms MarkObjects: 500.106000 ms  DeleteObjects: 6.671900 ms)
-
-剧情ID:23401
+剧情ID:21601
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(Int32, DramaData)
 UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnitActionRoleToUnitBase:OnCreate()
 UnitActionBase:Create()
 WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4707，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
+UIPropSelect:OnOKClick()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UnityEngine.Events.InvokableCall:Invoke()
 UnityEngine.Events.UnityEvent:Invoke()
@@ -571,37 +806,359 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.572600 ms
-
-Unloading 5356 unused Assets to reduce memory usage. Loaded Objects now: 5913.
-Total: 458.379000 ms (FindLiveObjects: 1.039400 ms CreateObjectMapping: 0.258700 ms MarkObjects: 453.946200 ms  DeleteObjects: 3.134500 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4707 战斗结束：True
+文本ID：105654
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIPropSelect:OnOKClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.492900 ms
+被他人赠送道具时的反馈
+道具评分：400
+亲密度评分：67
+仇恨度评分：158
 
-Unloading 6121 unused Assets to reduce memory usage. Loaded Objects now: 5925.
-Total: 517.011000 ms (FindLiveObjects: 1.008500 ms CreateObjectMapping: 0.362600 ms MarkObjects: 507.363500 ms  DeleteObjects: 8.276100 ms)
-
-Curl error 52: Empty reply from server
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnitActionFeedback1020:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
  
-(Filename:  Line: 813)
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-华冬镇东南方的残破锁灵阵,198,0,areaBaseID:4,decorateID:3201,isOrigi：False
+剧情ID:21602
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：105656
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:22811
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：105996
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+受到论道请求时的反馈
+亲密度评分：44
+仇恨度评分：-82
+
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnitActionFeedback1037:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:22812
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：105997
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:21201
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：105784
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnitActionRoleToUnitBase:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+被他人请求切磋时的反馈
+亲密度评分：-129
+精力评分：-600
+战力评分：1844
+
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnitActionFeedback1012:OnCreate()
+UnitActionBase:Create()
+WorldUnitBase:CreateAction(UnitActionBase, Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:21203
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+文本ID：105805
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ConfRoleLogLocal:LS(String, UnitConditionData, Boolean)
+UIDramaBase:GetDialogueText()
+UIDramaDialogue:UpdateUI()
+UIDramaBase:InitData(Int32, DramaData)
+<>c__DisplayClass10_0:<OpenDramaInID>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(Int32, DramaData)
+UICustomDramaBase:OpenUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+闪炎影派,145,52,areaBaseID:4,decorateID:10311,isOrigi：True
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 MapWorldMgr:SelectPosi(Vector2Int)
@@ -614,7 +1171,7 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-建筑ID：uFQfYK
+建筑ID：fpRyT8
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 <>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
@@ -626,677 +1183,7 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-剧情ID:23601
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-MapBuild10007:OpenBuild()
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass12_1:<IFrame>b__0()
-ReturnAction`1:Invoke()
-UnityEngine.WaitUntil:get_keepWaiting()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-建筑ID：Fu4tdo
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass12_1:<IFrame>b__0()
-ReturnAction`1:Invoke()
-UnityEngine.WaitUntil:get_keepWaiting()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 19.975900 ms
-
-Unloading 8067 unused Assets to reduce memory usage. Loaded Objects now: 6039.
-Total: 530.998000 ms (FindLiveObjects: 1.362900 ms CreateObjectMapping: 0.491700 ms MarkObjects: 523.031400 ms  DeleteObjects: 6.111900 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 12.363400 ms
-
-Unloading 5880 unused Assets to reduce memory usage. Loaded Objects now: 6061.
-Total: 506.395100 ms (FindLiveObjects: 0.975700 ms CreateObjectMapping: 0.324800 ms MarkObjects: 498.854200 ms  DeleteObjects: 6.239700 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 19.608200 ms
-
-Unloading 5556 unused Assets to reduce memory usage. Loaded Objects now: 6066.
-Total: 511.882900 ms (FindLiveObjects: 0.964700 ms CreateObjectMapping: 0.285600 ms MarkObjects: 507.389300 ms  DeleteObjects: 3.242800 ms)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.522700 ms
-
-Unloading 5903 unused Assets to reduce memory usage. Loaded Objects now: 6069.
-Total: 549.595900 ms (FindLiveObjects: 1.099100 ms CreateObjectMapping: 0.468400 ms MarkObjects: 541.567000 ms  DeleteObjects: 6.461200 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.900600 ms
-
-Unloading 5356 unused Assets to reduce memory usage. Loaded Objects now: 6074.
-Total: 510.403000 ms (FindLiveObjects: 0.982600 ms CreateObjectMapping: 0.286700 ms MarkObjects: 506.013500 ms  DeleteObjects: 3.119300 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 14.123500 ms
-
-Unloading 5956 unused Assets to reduce memory usage. Loaded Objects now: 6077.
-Total: 541.026600 ms (FindLiveObjects: 0.999100 ms CreateObjectMapping: 0.313500 ms MarkObjects: 532.990400 ms  DeleteObjects: 6.723100 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.458600 ms
-
-Unloading 6096 unused Assets to reduce memory usage. Loaded Objects now: 6082.
-Total: 548.183700 ms (FindLiveObjects: 1.113700 ms CreateObjectMapping: 0.318600 ms MarkObjects: 542.390000 ms  DeleteObjects: 4.361000 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 17.663100 ms
-
-Unloading 6303 unused Assets to reduce memory usage. Loaded Objects now: 6088.
-Total: 613.416600 ms (FindLiveObjects: 0.996100 ms CreateObjectMapping: 0.329500 ms MarkObjects: 605.196600 ms  DeleteObjects: 6.894200 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.878000 ms
-
-Unloading 5355 unused Assets to reduce memory usage. Loaded Objects now: 6093.
-Total: 567.554800 ms (FindLiveObjects: 0.981600 ms CreateObjectMapping: 0.302400 ms MarkObjects: 562.724900 ms  DeleteObjects: 3.545400 ms)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.938500 ms
-
-Unloading 5581 unused Assets to reduce memory usage. Loaded Objects now: 6096.
-Total: 579.138000 ms (FindLiveObjects: 1.011000 ms CreateObjectMapping: 0.323100 ms MarkObjects: 571.862700 ms  DeleteObjects: 5.940900 ms)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4708，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 16.979800 ms
-
-Unloading 9231 unused Assets to reduce memory usage. Loaded Objects now: 6147.
-Total: 603.796300 ms (FindLiveObjects: 1.027800 ms CreateObjectMapping: 0.384600 ms MarkObjects: 596.622000 ms  DeleteObjects: 5.761500 ms)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-4708 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.658500 ms
-
-Unloading 5651 unused Assets to reduce memory usage. Loaded Objects now: 6150.
-Total: 622.748700 ms (FindLiveObjects: 1.144800 ms CreateObjectMapping: 0.337400 ms MarkObjects: 615.112300 ms  DeleteObjects: 6.153900 ms)
-
-建筑ID：Q29o7y
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass12_1:<IFrame>b__0()
-ReturnAction`1:Invoke()
-UnityEngine.WaitUntil:get_keepWaiting()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-qjiR9Z (183, 17)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UINPCInfo:InitData(WorldUnitBase, Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-ROL8yX (183, 17)
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UINPCInfo:InitData(WorldUnitBase, Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-剧情ID:23401
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-UICustomDramaDyn:OpenDrameUI(Int32, WorldUnitBase, Action, DramaData)
-WorldSpecialMonstTrigger1001:OnSetPoint(ETypeData)
-Steamworks.DispatchDelegate:Invoke(T)
-EventsData:Call(ETypeData)
-EventsMgr:EmitEvents(String, ETypeData)
-EventsMgr:Emit(String, ETypeData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UnitActionBase:Create()
-WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
-UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
-DG.Tweening.Tween:OnTweenCallback(TweenCallback)
-DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
-DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
-DG.Tweening.Core.DOTweenComponent:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-进入副本：4709，等级：14
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
-WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
-WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
-DramaFunctionTool:IntoDungeon(String[])
-DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
-<>c__DisplayClass2_0:<OnSetPoint>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UICustomDramaBase:<Init>b__8_0(ConfDramaOptionsItem)
-Steamworks.DispatchDelegate:Invoke(T)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Curl error 52: Empty reply from server
- 
-(Filename:  Line: 813)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 18.863100 ms
-
-Unloading 11026 unused Assets to reduce memory usage. Loaded Objects now: 6269.
-Total: 695.041900 ms (FindLiveObjects: 1.301500 ms CreateObjectMapping: 0.514100 ms MarkObjects: 684.869700 ms  DeleteObjects: 8.356300 ms)
-
-4709 战斗结束：True
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-UIBattleEnd:InitData(Boolean)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<ITime>d__8:MoveNext()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.412000 ms
-
-Unloading 5639 unused Assets to reduce memory usage. Loaded Objects now: 6383.
-Total: 669.343300 ms (FindLiveObjects: 1.139000 ms CreateObjectMapping: 0.381700 ms MarkObjects: 662.010300 ms  DeleteObjects: 5.812000 ms)
-
-剧情ID:23601
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-MapBuild10007:OpenBuild()
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass12_1:<IFrame>b__0()
-ReturnAction`1:Invoke()
-UnityEngine.WaitUntil:get_keepWaiting()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-建筑ID：dQboNE
-UnityEngine.Logger:Log(LogType, Object)
-UnityEngine.Debug:Log(Object)
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass12_1:<IFrame>b__0()
-ReturnAction`1:Invoke()
-UnityEngine.WaitUntil:get_keepWaiting()
-UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
- 
-(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-剧情ID:6090051
+剧情ID:6090067
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
@@ -1304,50 +1191,64 @@ DramaTool:OpenDrama(String, DramaData)
 DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
 FortuitousTriggerBase:FortuitousTrigger(ConfFortuitousEventItem, DramaFunctionData)
 FortuitousTriggerBase:TriggerItem(List`1, UnitConditionData)
-FortuitousTriggerBase:TriggerItem(ConfFortuitousEventItem, UnitConditionData)
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-GuideTriggerCreateAction:OnOneUnitCreateActionBack(ETypeData)
+FortuitousTrigger1:OnMove(ETypeData)
 Steamworks.DispatchDelegate:Invoke(T)
 EventsData:Call(ETypeData)
 EventsMgr:EmitEvents(String, ETypeData)
 EventsMgr:Emit(String, ETypeData)
-UnitActionBase:<Create>b__10_0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 UnitActionBase:Create()
 WorldUnitBase:CreateAction(UnitActionBase, Boolean)
-UIMapMainGridInfo:CreateAction(UnitActionBase, ReturnAction`1)
-<>c__DisplayClass13_0:<OnAnimaClick>b__0()
+<>c__DisplayClass84_1:<MovePlayerPosi>b__2()
+UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+春桃镇北方,103,60,areaBaseID:4,decorateID:0,isOrigi：False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<IUnTime>d__10:MoveNext()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
 UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-剧情ID:6090053
+春桃镇北方,103,63,areaBaseID:4,decorateID:127,isOrigi：False
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71071
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
 DramaTool:OpenDrama(String, DramaData)
-UIDramaBase:NextDialogue(String)
-<>c__DisplayClass10_0:<CreateOptions>b__1()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-<>c__DisplayClass10_0:<CreateOptions>b__0()
-UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
+<>c__DisplayClass20_0:<PlayGridEffect>b__9()
+UnityEngine.OnOverrideControllerDirtyCallback:Invoke()
+DG.Tweening.Tween:OnTweenCallback(TweenCallback)
+DG.Tweening.Tween:DoGoto(Tween, Single, Int32, UpdateMode)
+DG.Tweening.Core.TweenManager:Update(UpdateType, Single, Single)
+DG.Tweening.Core.DOTweenComponent:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-剧情ID:6090099
+剧情ID:71072
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
@@ -1367,13 +1268,980 @@ UnityEngine.EventSystems.EventSystem:Update()
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-剧情ID:22901
+春桃镇北方,103,66,areaBaseID:4,decorateID:123,isOrigi：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+春桃镇北方的双仪村,101,68,areaBaseID:4,decorateID:101,isOrigi：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71121
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-MapBuildSchool:OpenBuild()
+DramaTool:OpenDrama(String, DramaData)
+TriggerBase:Trigger()
+WorldDramaTriggerMgr:<DelayUpdateFrameTrigger>b__7_0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71122
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71131
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71141
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71161
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71162
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71163
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71164
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71171
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+TriggerBase:Trigger()
+WorldDramaTriggerMgr:<DelayUpdateFrameTrigger>b__7_0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71172
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71173
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71174
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71175
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71176
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71177
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71178
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71179
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71180
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71181
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71182
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71183
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71184
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71185
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71186
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71187
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71188
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+春桃镇北方,104,71,areaBaseID:4,decorateID:108,isOrigi：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71261
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71262
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71263
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71261
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71262
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71263
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71264
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71265
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+进入副本：2052，等级：18
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
+WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
+WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
+DramaFunctionTool:IntoDungeon(String[])
+DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
+DramaTool:Options(ConfDramaOptionsItem, DramaFunctionData)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 35.018034 ms
+
+Unloading 19471 unused Assets to reduce memory usage. Loaded Objects now: 6061.
+Total: 489.713245 ms (FindLiveObjects: 4.762339 ms CreateObjectMapping: 3.433984 ms MarkObjects: 464.440557 ms  DeleteObjects: 17.075970 ms)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+2052 战斗结束：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UIBattleEnd:InitData(Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.949813 ms
+
+Unloading 18644 unused Assets to reduce memory usage. Loaded Objects now: 6285.
+Total: 429.188433 ms (FindLiveObjects: 4.424822 ms CreateObjectMapping: 2.636972 ms MarkObjects: 376.287547 ms  DeleteObjects: 45.838302 ms)
+
+剧情ID:71271
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+TriggerBase:Trigger()
+WorldDramaTriggerMgr:<DelayUpdateFrameTrigger>b__7_0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71141
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+世界运转一周期  耗时：6167毫秒，2542天
+运转Start：  耗时：51毫秒
+运转NPC：  耗时：5570毫秒
+运转SystemStart：  耗时：50毫秒
+运转System：  耗时：99毫秒
+运转SystemEnd：  耗时：0毫秒
+运转Map：  耗时：136毫秒
+运转UnitEffect：  耗时：2毫秒
+运转End：  耗时：43毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：unitRunAction
+NPC总人数：1423
+行为1038耗时：35毫秒，次数：355
+行为1003耗时：226毫秒，次数：52
+行为1030耗时：181毫秒，次数：261
+行为1001耗时：127毫秒，次数：43
+行为1025耗时：116毫秒，次数：511
+行为1031耗时：13毫秒，次数：45
+行为1012耗时：64毫秒，次数：141
+行为1004耗时：129毫秒，次数：114
+行为1013耗时：252毫秒，次数：21
+行为1036耗时：617毫秒，次数：172
+行为1016耗时：653毫秒，次数：68
+行为1039耗时：24毫秒，次数：96
+行为1020耗时：83毫秒，次数：99
+行为1040耗时：1毫秒，次数：41
+行为1029耗时：0毫秒，次数：62
+行为1027耗时：0毫秒，次数：2
+行为1028耗时：0毫秒，次数：3
+行为1009耗时：2毫秒，次数：6
+行为1010耗时：2毫秒，次数：5
+行为1037耗时：4毫秒，次数：4
+行为1024耗时：1毫秒，次数：0
+行为1035耗时：12毫秒，次数：2
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：unitRunGoal
+目标124耗时：757毫秒，次数：602
+目标129耗时：42毫秒，次数：355
+目标102耗时：304毫秒，次数：99
+目标113耗时：126毫秒，次数：510
+目标110耗时：776毫秒，次数：482
+目标109耗时：419毫秒，次数：416
+目标115耗时：31毫秒，次数：2050
+目标112耗时：1毫秒，次数：2050
+目标121耗时：5毫秒，次数：23
+目标119耗时：61毫秒，次数：41
+目标103耗时：58毫秒，次数：48
+目标122耗时：135毫秒，次数：9
+目标111耗时：31毫秒，次数：41
+目标127耗时：644毫秒，次数：172
+目标130耗时：25毫秒，次数：96
+目标107耗时：151毫秒，次数：30
+目标131耗时：1毫秒，次数：41
+目标125耗时：37毫秒，次数：63
+目标101耗时：63毫秒，次数：13
+目标201耗时：30毫秒，次数：62
+目标120耗时：22毫秒，次数：62
+目标118耗时：1毫秒，次数：4
+目标126耗时：21毫秒，次数：34
+目标105耗时：8毫秒，次数：11
+目标104耗时：40毫秒，次数：11
+目标116耗时：0毫秒，次数：1
+目标117耗时：5毫秒，次数：2
+目标128耗时：6毫秒，次数：5
+目标106耗时：39毫秒，次数：2
+目标114耗时：0毫秒，次数：1
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：school
+苍霜龙门宗门运转  耗时：1毫秒
+震龙刃教宗门运转  耗时：1毫秒
+古龙门宗门运转  耗时：1毫秒
+极明月宗宗门运转  耗时：1毫秒
+圣木世教宗门运转  耗时：2毫秒
+落星门宗门运转  耗时：2毫秒
+玄炎影山宗门运转  耗时：3毫秒
+皇炎宗宗门运转  耗时：2毫秒
+玄地宗宗门运转  耗时：1毫秒
+闪霜云山宗门运转  耗时：1毫秒
+苍地灵宗宗门运转  耗时：1毫秒
+寒云龙门宗门运转  耗时：1毫秒
+极木虚宗宗门运转  耗时：1毫秒
+玄明龙宗宗门运转  耗时：2毫秒
+飞星门宗门运转  耗时：3毫秒
+焚世影门宗门运转  耗时：1毫秒
+苍木青谷宗门运转  耗时：1毫秒
+闪龙谷宗门运转  耗时：1毫秒
+闪炎影派宗门运转  耗时：1毫秒
+皇明派宗门运转  耗时：1毫秒
+极虹谷宗门运转  耗时：1毫秒
+寒影影派宗门运转  耗时：0毫秒
+落世灵派宗门运转  耗时：1毫秒
+震龙影谷宗门运转  耗时：1毫秒
+玄木派宗门运转  耗时：2毫秒
+极地虚谷宗门运转  耗时：2毫秒
+寒明派宗门运转  耗时：1毫秒
+落炎龙谷宗门运转  耗时：1毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：map
+地图存在特效格子数量：451
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：runEnd
+AI数据  耗时：3毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+保存日志  耗时：1141毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CodeTimeLog:LogMs(String)
+<>c__DisplayClass10_1:<SaveLogData>b__4()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+保存存档1_33OdFC  耗时：1648毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CodeTimeLog:LogMs(String)
+<>c__DisplayClass47_0:<SaveData>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+建筑ID：s0WnxK
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
 <>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 <>c__DisplayClass12_1:<IFrame>b__0()
@@ -1395,47 +2263,36 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-e5apjl (145, 52)
+建筑ID：fpRyT8
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UINPCInfo:InitData(WorldUnitBase, Boolean)
+<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-QoFyun (145, 52)
+落世灵派东南方的精卫,167,49,areaBaseID:4,decorateID:2404,isOrigi：True
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-UINPCInfo:InitData(WorldUnitBase, Boolean)
+MapWorldMgr:SelectPosi(Vector2Int)
+MapWorldMgr:OnUpdate()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
-UnityEngine.Events.InvokableCall:Invoke()
-UnityEngine.Events.UnityEvent:Invoke()
-ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
-UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
-UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
-UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
-UnityEngine.EventSystems.StandaloneInputModule:Process()
-UnityEngine.EventSystems.EventSystem:Update()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-剧情ID:22901
+剧情ID:71457
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 DramaTool:OpenDramaInID(Int32, DramaData)
-DramaTool:OpenDrama(Int32, DramaData)
-UICustomDramaBase:OpenUI()
-MapBuildSchool:OpenBuild()
+DramaTool:OpenDrama(String, DramaData)
 <>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 <>c__DisplayClass12_1:<IFrame>b__0()
@@ -1445,10 +2302,190 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-建筑ID：pBqhjh
+剧情ID:71451
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71452
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71453
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71454
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71455
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71456
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+进入副本：2054，等级：20
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WorldBattleMgr:IntoBattleInit(Vector2Int, MonstData, WorldBattleData)
+WorldBattleMgr:IntoBattle(Vector2Int, MonstData, Action, WorldBattleData)
+WorldBattleMgr:IntoBattle(MonstData, Action, WorldBattleData)
+DramaFunctionTool:IntoDungeon(String[])
+DramaFunctionTool:OptionsFunction(String, DramaFunctionData)
+DramaTool:Options(ConfDramaOptionsItem, DramaFunctionData)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 29.877914 ms
+
+Unloading 10871 unused Assets to reduce memory usage. Loaded Objects now: 6350.
+Total: 458.537373 ms (FindLiveObjects: 3.098836 ms CreateObjectMapping: 1.234403 ms MarkObjects: 444.688141 ms  DeleteObjects: 9.515599 ms)
+
+Curl error 7: Failed to connect to 127.0.0.1 port 7890: Connection refused
+ 
+(Filename:  Line: 813)
+
+2054 战斗结束：True
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UIBattleEnd:InitData(Boolean)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<ITime>d__8:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.910043 ms
+
+Unloading 41585 unused Assets to reduce memory usage. Loaded Objects now: 6467.
+Total: 565.342220 ms (FindLiveObjects: 8.305276 ms CreateObjectMapping: 7.572214 ms MarkObjects: 400.023054 ms  DeleteObjects: 149.441282 ms)
+
+剧情ID:71461
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+TriggerBase:Trigger()
+WorldDramaTriggerMgr:<DelayUpdateFrameTrigger>b__7_0()
 UnityEngine.LowLevel.UpdateFunction:Invoke()
 <>c__DisplayClass12_1:<IFrame>b__0()
 ReturnAction`1:Invoke()
@@ -1457,7 +2494,533 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-保存日志  耗时：821毫秒
+剧情ID:71462
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71463
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71464
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71465
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71471
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71472
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71473
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71511
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+<>c__DisplayClass10_0:<CreateOptions>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass10_0:<CreateOptions>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71512
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIEventListener:OnPointerClick(PointerEventData)
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71513
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71514
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71515
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71516
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71517
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71518
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71519
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71520
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71521
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+世界运转一周期  耗时：7508毫秒，2573天
+运转Start：  耗时：79毫秒
+运转NPC：  耗时：6776毫秒
+运转SystemStart：  耗时：69毫秒
+运转System：  耗时：115毫秒
+运转SystemEnd：  耗时：0毫秒
+运转Map：  耗时：160毫秒
+运转UnitEffect：  耗时：5毫秒
+运转End：  耗时：51毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：unitRunAction
+NPC总人数：1415
+行为1030耗时：170毫秒，次数：239
+行为1025耗时：196毫秒，次数：626
+行为1012耗时：66毫秒，次数：124
+行为1039耗时：29毫秒，次数：83
+行为1038耗时：32毫秒，次数：300
+行为1001耗时：91毫秒，次数：45
+行为1029耗时：0毫秒，次数：63
+行为1003耗时：263毫秒，次数：37
+行为1004耗时：134毫秒，次数：77
+行为1020耗时：169毫秒，次数：85
+行为1036耗时：627毫秒，次数：141
+行为1027耗时：1毫秒，次数：4
+行为1016耗时：914毫秒，次数：58
+行为1010耗时：2毫秒，次数：6
+行为1031耗时：19毫秒，次数：40
+行为1013耗时：135毫秒，次数：11
+行为1037耗时：2毫秒，次数：1
+行为1028耗时：0毫秒，次数：2
+行为1040耗时：1毫秒，次数：31
+行为1009耗时：1毫秒，次数：5
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：unitRunGoal
+目标124耗时：911毫秒，次数：516
+目标113耗时：219毫秒，次数：626
+目标109耗时：655毫秒，次数：375
+目标130耗时：33毫秒，次数：83
+目标129耗时：49毫秒，次数：300
+目标110耗时：873毫秒，次数：445
+目标201耗时：53毫秒，次数：58
+目标120耗时：58毫秒，次数：63
+目标115耗时：59毫秒，次数：2015
+目标112耗时：3毫秒，次数：2015
+目标111耗时：175毫秒，次数：33
+目标102耗时：270毫秒，次数：83
+目标127耗时：673毫秒，次数：141
+目标117耗时：0毫秒，次数：2
+目标105耗时：6毫秒，次数：11
+目标125耗时：29毫秒，次数：34
+目标126耗时：11毫秒，次数：16
+目标121耗时：3毫秒，次数：22
+目标107耗时：105毫秒，次数：22
+目标128耗时：3毫秒，次数：2
+目标118耗时：2毫秒，次数：4
+目标119耗时：77毫秒，次数：32
+目标103耗时：75毫秒，次数：37
+目标122耗时：65毫秒，次数：9
+目标101耗时：94毫秒，次数：15
+目标131耗时：1毫秒，次数：31
+目标104耗时：67毫秒，次数：9
+目标116耗时：1毫秒，次数：3
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：school
+苍霜龙门宗门运转  耗时：1毫秒
+震龙刃教宗门运转  耗时：2毫秒
+古龙门宗门运转  耗时：1毫秒
+极明月宗宗门运转  耗时：1毫秒
+圣木世教宗门运转  耗时：1毫秒
+落星门宗门运转  耗时：1毫秒
+玄炎影山宗门运转  耗时：2毫秒
+皇炎宗宗门运转  耗时：3毫秒
+玄地宗宗门运转  耗时：2毫秒
+闪霜云山宗门运转  耗时：1毫秒
+苍地灵宗宗门运转  耗时：1毫秒
+寒云龙门宗门运转  耗时：1毫秒
+极木虚宗宗门运转  耗时：1毫秒
+玄明龙宗宗门运转  耗时：1毫秒
+飞星门宗门运转  耗时：1毫秒
+焚世影门宗门运转  耗时：2毫秒
+苍木青谷宗门运转  耗时：3毫秒
+闪龙谷宗门运转  耗时：2毫秒
+闪炎影派宗门运转  耗时：1毫秒
+皇明派宗门运转  耗时：2毫秒
+极虹谷宗门运转  耗时：1毫秒
+寒影影派宗门运转  耗时：1毫秒
+落世灵派宗门运转  耗时：1毫秒
+震龙影谷宗门运转  耗时：2毫秒
+玄木派宗门运转  耗时：3毫秒
+极地虚谷宗门运转  耗时：2毫秒
+寒明派宗门运转  耗时：2毫秒
+落炎龙谷宗门运转  耗时：1毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：map
+地图存在特效格子数量：454
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+运转日志：runEnd
+AI数据  耗时：6毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass22_1:<RunWorld>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+保存日志  耗时：1418毫秒
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 CodeTimeLog:LogMs(String)
@@ -1471,7 +3034,7 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-保存存档1_33OdFC  耗时：1332毫秒
+保存存档1_33OdFC  耗时：2039毫秒
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
 CodeTimeLog:LogMs(String)
@@ -1484,10 +3047,289 @@ UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
  
 (Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Setting up 6 worker threads for Enlighten.
-  Thread -> id: 3e7c -> priority: 1 
-  Thread -> id: 992c -> priority: 1 
-  Thread -> id: ae64 -> priority: 1 
-  Thread -> id: a7f8 -> priority: 1 
-  Thread -> id: 8cd4 -> priority: 1 
-  Thread -> id: 89a0 -> priority: 1 
+建筑ID：fpRyT8
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<>c__DisplayClass15_0:<OpenGridClickInfo>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71531
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+TriggerBase:Trigger()
+WorldDramaTriggerMgr:<DelayUpdateFrameTrigger>b__7_0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71532
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71533
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71534
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71535
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71536
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71901
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+UITownStorage:UpdateUI()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+EventsData:Call(ETypeData)
+EventsMgr:EmitEvents(String, ETypeData)
+EventsMgr:Emit(String, ETypeData)
+<>c__DisplayClass25_1:<CloseUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIMgr:CloseUI(UITypeBase, Boolean)
+<>c__DisplayClass25_1:<CloseUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIMgr:CloseUI(UITypeBase, Boolean)
+UIDramaDialogue:CloseUI()
+UIDramaBase:NextDialogue(String)
+UIDramaDialogue:OnNextClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71701
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass5_0:<UpdateUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71801
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass5_0:<UpdateUI>b__2()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UIPropSelect:OnOKClick()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71751
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass5_0:<UpdateUI>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71851
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass5_0:<UpdateUI>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+剧情ID:71851
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+DramaTool:OpenDramaInID(Int32, DramaData)
+DramaTool:OpenDrama(String, DramaData)
+<>c__DisplayClass5_0:<UpdateUI>b__1()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.Events.InvokableCall:Invoke()
+UnityEngine.Events.UnityEvent:Invoke()
+ICSharpCode.SharpZipLib.Core.ProgressHandler:Invoke(Object, ProgressEventArgs)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ReleaseMouse(PointerEventData, GameObject)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+保存日志  耗时：1462毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CodeTimeLog:LogMs(String)
+<>c__DisplayClass10_1:<SaveLogData>b__4()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+保存存档1_33OdFC  耗时：2276毫秒
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CodeTimeLog:LogMs(String)
+<>c__DisplayClass47_0:<SaveData>b__0()
+UnityEngine.LowLevel.UpdateFunction:Invoke()
+<>c__DisplayClass12_1:<IFrame>b__0()
+ReturnAction`1:Invoke()
+UnityEngine.WaitUntil:get_keepWaiting()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 32a8 -> priority: 1 
+  Thread -> id: 174 -> priority: 1 
